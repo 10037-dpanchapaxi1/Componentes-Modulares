@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Modificado para mostrar en forma vertical */
+    align-items: center; /* Alinea los elementos en el centro */
+  }
+  
+  .component {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+  }
+
+  /* Agrega una nueva clase para el espacio vertical */
+.space {
+    margin-bottom: 10px; /* Puedes ajustar la cantidad de espacio según tus preferencias */
+  }
+  
+ /* Agrega una nueva clase para el espacio vertical */
+.space {
+    margin-bottom: 10px; /* Puedes ajustar la cantidad de espacio según tus preferencias */
+  }
+  
+  /* Agrega una nueva clase para centrar el botón */
+  .center-button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Agrega una nueva clase para centrar el texto */
+.center-text {
+    text-align: center;
+  }
+  
+  
